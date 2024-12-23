@@ -15,17 +15,16 @@ export default function Footer() {
             <div className="col-md-6 col-lg-4">
               <div className="bg-primary rounded p-4">
                 <Link to="/">
-                  <h1 className="text-white text-uppercase mb-3">Hotelier</h1>
+                  <h1 className="text-white text-uppercase mb-3">Забытые сны</h1>
                 </Link>
                 <p className="text-white mb-0">
-                  Build a professional website for your hotel business and grab
-                  the attention of new visitors upon your site’s launch.
+                Гостевой дом имеющий не сколько обьектов для размещения. Все места размещения находятся в центре города.
                 </p>
               </div>
             </div>
             <div className="col-md-6 col-lg-3">
               <h6 className="section-title text-start text-primary text-uppercase mb-4">
-                Contact
+                Контакты
               </h6>
               {footerContact.map((val, index) => (
                 <p className="mb-2" key={index}>

@@ -5,9 +5,9 @@ export default function PageNotFound() {
   return (
     <>
       <Heading
-        heading="Page Not Found"
-        title="Home"
-        subtitle="Page Not Found"
+        heading="Такая страница не существует"
+        title="Главная"
+        subtitle="Такая страница не существует"
       />
     </>
   );

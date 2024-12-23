@@ -1,6 +1,6 @@
 import React from "react";
 import CommonHeading from "../common/CommonHeading";
-import { facility, roomItems } from "../data/Data";
+import { roomItems } from "../data/Data";
 
 export default function Rooms() {
   return (
@@ -8,9 +8,9 @@ export default function Rooms() {
       <div className="container-xxl py-5">
         <div className="container">
           <CommonHeading
-            heading="Our Rooms"
-            title="Rooms"
-            subtitle="Explore Our"
+            heading="Наши предложения"
+            title="Номеров"
+            subtitle="Выбор"
           />
           <div className="row g-4">
             {roomItems.map((item, key) => (
@@ -28,21 +28,9 @@ export default function Rooms() {
                       <div className="ps-2">{item.star}</div>
                     </div>
                     <div className="d-flex mb-3">
-                      {facility.map((item, index) => (
-                        <small className="border-end me-3 pe-3">
-                          {item.icon}
-                          {item.quantity} {item.facility}
-                        </small>
-                      ))}
                     </div>
                     <p className="text-body mb-3">{item.description}</p>
                     <div className="d-flex justify-content-between">
-                      <a
-                        className="btn btn-sm btn-primary rounded py-2 px-4"
-                        href=""
-                      >
-                        {item.yellowbtn}
-                      </a>
                       <a className="btn btn-sm btn-dark rounded py-2 px-4" href="">
                         {item.darkbtn}
                       </a>

@@ -10,16 +10,15 @@ export default function About() {
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">
               <h6 className="section-title text-start text-primary text-uppercase">
-                About Us
+                О нас
               </h6>
               <h1 className="mb-4">
-                Welcome to{" "}
-                <span className="text-primary text-uppercase">Hotelier</span>
+                Добро Пожаловать{" "}
+                <span className="text-primary text-uppercase">Забытые сны</span>
               </h1>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+              Гостевой дом Валдай Ленина 3 это два отдельных дома на одной территории в центре Валдая, рядом с набережной озера. Есть общий закрытый двор с парковкой на 6 авто, зоной барбекю, мангалом и удобной беседкой. Рядом находятся все достопримечательности Валдая, прогулочная зона набережной озера с прекрасным видом на Иверский монастырь, детский комплекс "поляна сказок" и центр с кафе "место Валдай" . Также в 100 -200 метрах магазины и кафе.
+              <br/>У нас вы можете забронировать дом на выбор 120м2 с 3 мя спальнями , общей вместимостью до 14 человек с 2мя сан узлами и гостинной или забронировать дом с 4 мя спальнями, общей вместимостью до 14 человек с 2мя сан узлами.
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (
@@ -37,7 +36,7 @@ export default function About() {
                 ))}
               </div>
               <a className="btn btn-primary py-3 px-5 mt-2" href="">
-                Explore More
+                Забронировать
               </a>
             </div>
             <div className="col-lg-6">

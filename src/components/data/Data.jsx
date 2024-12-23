@@ -2,49 +2,27 @@ export const navList = [
   {
     id: 1,
     path: "/",
-    text: "Home",
+    text: "Главная",
   },
   {
     id: 2,
     path: "/about",
-    text: "About",
+    text: "О нас",
   },
   {
     id: 3,
     path: "/services",
-    text: "Services",
+    text: "Сервис",
   },
   {
     id: 4,
     path: "/rooms",
-    text: "Rooms",
-  },
-  {
-    id: 5,
-    path: "/page",
-    text: "Page",
-    subItems: [
-      {
-        id: 51,
-        path: "/booking",
-        text: "Booking",
-      },
-      {
-        id: 52,
-        path: "/team",
-        text: "Our Team",
-      },
-      {
-        id: 53,
-        path: "/testimonial",
-        text: "Testimonial",
-      },
-    ],
+    text: "Номера",
   },
   {
     id: 6,
     path: "/contact",
-    text: "Contact",
+    text: "Контакты",
   },
 ];
 export const socialIcons = [
@@ -67,70 +45,70 @@ export const socialIcons = [
 
 export const carouselData = [
   {
-    img: "../assets/img/carousel-1.jpg",
-    title: "Discover A Brand Luxurious Hotel",
-    subtitle: "luxury living",
-    btn1: "Our Room",
-    btn2: "Book Room",
+    img: "../assets/img/banner_bg.jpg",
+    title: "Лучшeе место для размещения в центре города. +79602090607",
+    subtitle: "Гостевой дом Ленина 3",
+    btn1: "Выбор номеров",
+    btn2: "Забронировать",
   },
   {
-    img: "../assets/img/carousel-2.jpg",
-    title: "Discover A Brand Luxurious Hotel",
-    subtitle: "luxury living",
-    btn1: "Our Room",
-    btn2: "Book Room",
+    img: "../assets/img/home4.jpeg",
+    title: "Лучшeе место для размещения в центре города. +79602090607",
+    subtitle: "Гостевой дом Ленина 3",
+    btn1: "Выбор номеров",
+    btn2: "Забронировать",
   },
 ];
 export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
-    text: "Rooms",
-    count: "7861",
+    text: "Комнат",
+    count: "8",
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
-    text: "Staffs",
-    count: "1234",
+    text: "Сотрудники",
+    count: "2",
   },
   {
     icon: <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>,
-    text: "Clients",
-    count: "4321",
+    text: "Клиенты",
+    count: "1000+",
   },
 ];
 
 export const services = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
-    name: "Rooms & Appartment",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Наши обьекты",
+    discription: "Гостевой дом находится в центре города, с окна вид на центр города и на Валдаское озеро.",
   },
   {
     icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
-    name: "Food & Restaurant",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Еда & Кафе",
+    discription: "Рядом с нами находятся все магазины, кафе с красивыми видами, набережная озера. Развлекательный центр",
   },
   {
     icon: <i class="fa fa-spa fa-2x text-primary"></i>,
-    name: "Spa & Fitness",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Комфорт",
+    discription: "В номерах имеется отопление, общая кухня, удобные кровати (полное описание в разделе 'номера').",
   },
 
   {
-    icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
-    name: "Sports & Gaming",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    icon: <i class="fa fa-car fa-2x text-primary"></i>,
+    name: "Парковка для авто",
+    discription: "Большая парковка на территории Гостевого дома оснащёная видеонаблюдением.",
   },
   {
     icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
-    name: "Event & Party",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Барбекю",
+    discription: "Во дворе дома имеется мангал и удобная беседка. (Любой вид барбекю)",
   },
 
   {
-    icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
-    name: "GYM & Yoga",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    icon: <i class="fa fa-home fa-2x text-primary"></i>,
+    name: "Дом",
+    discription: "На территории находится так же отдельный дом, 120 м² (полное описание в разделе 'номера').",
   },
 ];
 export const team = [
@@ -159,22 +137,16 @@ export const team = [
 export const footerItem = [
   {
     id: 1,
-    header: "Company",
+    header: "Компания",
     UnitItem: [
       {
-        name: "About Us",
+        name: "О нас",
       },
       {
-        name: "Contact Us",
+        name: "Номера",
       },
       {
-        name: "Privacy Policy",
-      },
-      {
-        name: "Terms & Condition",
-      },
-      {
-        name: "Support",
+        name: "Контакты",
       },
     ],
   },
@@ -183,19 +155,10 @@ export const footerItem = [
     header: "Services",
     UnitItem: [
       {
-        name: "Food & Restaurant",
+        name: "Еда & Кафе",
       },
       {
-        name: "Spa & Fitness",
-      },
-      {
-        name: "Sports & Gaming",
-      },
-      {
-        name: "Event & Party",
-      },
-      {
-        name: "GYM & Yoga",
+        name: "Развлекательный центр",
       },
     ],
   },
@@ -204,41 +167,40 @@ export const footerItem = [
 export const footerContact = [
   {
     icon: <i className="fa fa-map-marker-alt me-3"></i>,
-    name: "123 Street, New York, USA",
+    name: "Валдай, Ленина 3а",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
-    name: "+012 345 67890",
+    name: "+79602090607",
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "info@example.com",
+    name: "kos5700@yandex.ru",
   },
 ];
 
 export const contact = [
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
-    title: "Booking",
-    email: "book@example.com",
+    title: "Забронировать",
+    email: "kos5700@yandex.ru",
   },
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
-    title: "Technical",
-    email: "tech@example.com",
+    title: "Тех проблемы",
+    email: "youngtrue9@gmail.com",
   },
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
-    title: "General",
-    email: "info@example.com",
+    title: "Предложения",
+    email: "kos5700@yandex.ru",
   },
 ];
 export const testimonial = [
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
-    profession: "Profession",
+      "Очень рекомендую. Мы обязательно приедем ещё раз! + Отличный дом! Очень много места. Всё везде чисто. Бельё свежее. Порадовало что в доме два туалета. Полноценная кухня, можно хоть пироги печь. Плита газовая, микроволновка, посудомойка и куча всяких мелочей, всё исправно работает. В гостиной на первом этаже очень много места, можно хороводы водить. Отлично выспались и отдохнули. Жалко что не было возможности остаться подольше. Хозяева очень гостеприимные. Рекомендую это место для остановки и отдыха в Валдае. - Всё хорошо",
+    name: "Елена",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
@@ -246,9 +208,8 @@ export const testimonial = [
   },
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
-    profession: "Profession",
+      "Отличное место в самом центре Валдая + Поехали туда с друзьями для празднования моего дня рождения и не прогадали. Отличное место для отдыха веселой компанией. Хорошее расположение, гостеприимная хозяйка, удобства все имеются, в доме тепло, на первом этаже тёплый пол, много места.  Все магазины и аптеки в шаговой доступности , парковка прямо на территории, все принадлежности для шашлыка. В общем и целом я рекомендую это место для туристов. Озеро и все достопримечательности рядом. Подойдёт как семье так и компании. В будущем , если хозяева пристроят сауну - это будет 10 из 10, я думаю)",
+    name: "Георгий",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
@@ -256,9 +217,8 @@ export const testimonial = [
   },
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
-    profession: "Profession",
+      "Замечательный домик! + Домик комфортный! Два раскладывающихся, удобных дивана в гостиной, по две односпальных кровати в спальнях на 2-ом этаже. Все необходимое было в наличии. Расположен близко к набережной. Рядом продуктовые магазины и рыночек. Парковка на территории. Нам понравилось, рекомендую!😀",
+    name: "Антон",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
@@ -268,9 +228,9 @@ export const testimonial = [
 
 export const roomItems = [
   {
-    img: "../assets/img/room-1.jpg",
-    price: "$110/night",
-    name: "Junior Suit",
+    img: "../assets/img/family.jpg",
+    price: "4500₽/сутки",
+    name: "Семейный номер",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -279,15 +239,13 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
+      "Семейный номер. Одна кровать двуспальная + две односпальные кровати. Имеется своя ванная комната.",
+    darkbtn: "Забронировать",
   },
-
   {
-    img: "../assets/img/room-2.jpg",
-    price: "$110/night",
-    name: "Executive Suite",
+    img: "../assets/img/big-home.jpeg",
+    price: "8000₽/сутки",
+    name: "Дом с четыремя спальнями",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -296,14 +254,13 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
+      "Этаж  дома, четырёхкомнатная квартира с отдельным входом с улицы. В спальнях все кровати раздельные,  максимальное размещение 14 человек.  Имеется кухня и две туалетных комнаты с душевыми.  Своя дворовая территория с зоной барбекю.",
+    darkbtn: "Забронировать",
   },
   {
-    img: "../assets/img/room-3.jpg",
-    price: "$110/night",
-    name: "Super Deluxe",
+    img: "../assets/img/photo-h4ome.jpeg",
+    price: "8000₽/сутки",
+    name: "Дом с тремя спальнями",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -312,25 +269,7 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
-  },
-];
-
-export const facility = [
-  {
-    icon: <i class="fa fa-bed text-primary me-2"></i>,
-    quantity: 3,
-    facility: "bed",
-  },
-  {
-    icon: <i class="fa fa-bath text-primary me-2"></i>,
-    quantity: 2,
-    facility: "bath",
-  },
-  {
-    icon: <i class="fa fa-wifi text-primary me-2"></i>,
-    facility: "Wifi",
+      "Дом с тремя спальнями. В спальнях  семь раздельных кроватей и имеется большая гостиная с диванами и кухонной зоной. Максимальное размещение до 11 человек. Два санузла с душевыми. Своя дворовая территория с зоной барбекю.",
+    darkbtn: "Забронировать",
   },
 ];

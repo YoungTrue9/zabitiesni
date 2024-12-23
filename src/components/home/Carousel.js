@@ -44,7 +44,7 @@ export default function Carousel() {
                       <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">
                         {val.subtitle}
                       </h6>
-                      <h1 className="display-3 text-white mb-4 animated slideInDown">
+                      <h1 className="text-white  animated slideInDown">
                         {val.title}
                       </h1>
                       <a
@@ -74,7 +74,7 @@ export default function Carousel() {
               className="carousel-control-prev-icon"
               aria-hidden="true"
             ></span>
-            <span className="visually-hidden">Previous</span>
+            <span className="visually-hidden">Предведущие</span>
           </button>
           <button
             className="carousel-control-next"
@@ -85,7 +85,7 @@ export default function Carousel() {
               className="carousel-control-next-icon"
               aria-hidden="true"
             ></span>
-            <span className="visually-hidden">Next</span>
+            <span className="visually-hidden">Следующие</span>
           </button>
         </div>
       </div>
