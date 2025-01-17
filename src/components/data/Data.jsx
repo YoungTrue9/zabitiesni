@@ -49,14 +49,14 @@ export const carouselData = [
     title: "Лучшeе место для размещения в центре города. +79602090607",
     subtitle: "Гостевой дом Ленина 3",
     btn1: "Выбор номеров",
-    btn2: "Забронировать",
+    btn2: "Местоположение",
   },
   {
     img: "../assets/img/home4.jpeg",
     title: "Лучшeе место для размещения в центре города. +79602090607",
     subtitle: "Гостевой дом Ленина 3",
     btn1: "Выбор номеров",
-    btn2: "Забронировать",
+    btn2: "Местоположение",
   },
 ];
 export const about = [
@@ -67,8 +67,8 @@ export const about = [
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
-    text: "Сотрудники",
-    count: "2",
+    text: "Вместимость",
+    count: "27",
   },
   {
     icon: <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>,
@@ -91,7 +91,7 @@ export const services = [
   {
     icon: <i class="fa fa-spa fa-2x text-primary"></i>,
     name: "Комфорт",
-    discription: "В номерах имеется отопление, общая кухня, удобные кровати (полное описание в разделе 'номера').",
+    discription: "В номерах имеется отопление, общая кухня, удобные кровати (полное описание в разделе 'номера'). ",
   },
 
   {
@@ -227,49 +227,70 @@ export const testimonial = [
 ];
 
 export const roomItems = [
-  {
-    img: "../assets/img/family.jpg",
-    price: "4500₽/сутки",
-    name: "Семейный номер",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Семейный номер. Одна кровать двуспальная + две односпальные кровати. Имеется своя ванная комната.",
-    darkbtn: "Забронировать",
-  },
-  {
-    img: "../assets/img/big-home.jpeg",
-    price: "8000₽/сутки",
-    name: "Дом с четыремя спальнями",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Этаж  дома, четырёхкомнатная квартира с отдельным входом с улицы. В спальнях все кровати раздельные,  максимальное размещение 14 человек.  Имеется кухня и две туалетных комнаты с душевыми.  Своя дворовая территория с зоной барбекю.",
-    darkbtn: "Забронировать",
-  },
-  {
-    img: "../assets/img/photo-h4ome.jpeg",
-    price: "8000₽/сутки",
-    name: "Дом с тремя спальнями",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
-    description:
-      "Дом с тремя спальнями. В спальнях  семь раздельных кроватей и имеется большая гостиная с диванами и кухонной зоной. Максимальное размещение до 11 человек. Два санузла с душевыми. Своя дворовая территория с зоной барбекю.",
-    darkbtn: "Забронировать",
-  },
-];
+    {
+      img: "../assets/img/photo-h4ome.jpeg",
+      price: "8000₽/сутки",
+      name: "Дом с тремя спальнями",
+      star: [
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+      ],
+      description:
+        "Дом с тремя спальнями. В спальнях семь раздельных кроватей и имеется большая гостиная с диванами и кухонной зоной. Максимальное размещение до 11 человек. Два санузла с душевыми. Своя дворовая территория с зоной барбекю. (прямое бронирование от владельца без посредников)",
+      darkbtn: "Забронировать",
+      images: [
+        "../assets/img/object-carousel1.jpg",
+        "../assets/img/object-carousel2.jpg",
+        "../assets/img/object-carousel7.jpg",
+        "../assets/img/object-carousel8.jpg",
+        "../assets/img/object-carousel9.jpg",
+        "../assets/img/object-carousel10.jpg",
+        "../assets/img/object-carousel11.jpg",
+      ],
+    },
+    {
+      img: "../assets/img/big-home.jpeg",
+      price: "8000₽/сутки",
+      name: "Дом с четыремя спальнями",
+      star: [
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+      ],
+      description:
+        "Этаж дома, четырёхкомнатная квартира с отдельным входом с улицы. В спальнях все кровати раздельные, максимальное размещение 14 человек. Имеется кухня и две туалетных комнаты с душевыми. Своя дворовая территория с зоной барбекю. (прямое бронирование от владельца без посредников)",
+      darkbtn: "Забронировать",
+      images: [
+        "../assets/img/object-carousel3.jpg",
+        "../assets/img/object-carousel4.jpg",
+        "../assets/img/object-carousel5.jpg",
+        "../assets/img/object-carousel6.jpg",
+      ],
+    },
+    {
+      img: "../assets/img/family.jpg",
+      price: "4500₽/сутки",
+      name: "Семейный номер",
+      star: [
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+        <small className="fa fa-star text-primary"></small>,
+      ],
+      description:
+        "Семейный номер. Одна кровать двуспальная + две односпальные кровати. Имеется своя ванная комната. (прямое бронирование от владельца без посредников)",
+      darkbtn: "Забронировать",
+      images: [
+        "../assets/img/family1.jpeg",
+        "../assets/img/family2.jpeg",
+        "../assets/img/family3.jpeg",
+      ],
+    },
+  ];
+  

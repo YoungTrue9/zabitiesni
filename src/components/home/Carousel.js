@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
+import { Link } from "react-router-dom"; // Импортируем Link
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { carouselData } from "../data/Data";
@@ -26,6 +27,7 @@ export default function Carousel() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
   return (
     <>
       <div className="container-fluid p-0 mb-5">
@@ -44,7 +46,7 @@ export default function Carousel() {
                       <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">
                         {val.subtitle}
                       </h6>
-                      <h1 className="text-white  animated slideInDown">
+                      <h1 className="text-white animated slideInDown">
                         {val.title}
                       </h1>
                       <a
@@ -53,12 +55,13 @@ export default function Carousel() {
                       >
                         {val.btn1}
                       </a>
-                      <a
-                        href=""
+                      {/* Используем Link вместо обычного <a> */}
+                      <Link
+                        to="/contact"
                         className="btn btn-light py-md-3 px-md-5 animated slideInRight"
                       >
                         {val.btn2}
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
