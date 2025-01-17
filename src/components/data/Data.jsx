@@ -67,8 +67,8 @@ export const about = [
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
-    text: "Сотрудники",
-    count: "2",
+    text: "Вместимость",
+    count: "27",
   },
   {
     icon: <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>,
