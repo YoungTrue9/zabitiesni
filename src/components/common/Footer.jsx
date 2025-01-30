@@ -27,10 +27,13 @@ export default function Footer() {
                 Контакты
               </h6>
               {footerContact.map((val, index) => (
-                <p className="mb-2" key={index}>
-                  {val.icon} {val.name}
-                </p>
-              ))}
+  <p className="mb-2" key={index}>
+    <a href={val.href} className="text-light text-decoration-none">
+      {val.icon} {val.name}
+    </a>
+  </p>
+))}
+
               <div className="d-flex pt-2">
                 {socialIcons.slice(0, 4).map((val, index) => (
                   <a className="btn btn-outline-light btn-social" href="">
@@ -47,10 +50,10 @@ export default function Footer() {
                       {section.header}
                     </h6>
                     {section.UnitItem.map((item, itemIndex) => (
-                      <a className="btn btn-link" href="" key={itemIndex}>
-                        {item.name}
-                      </a>
-                    ))}
+  <Link className="btn btn-link" to={item.href} key={itemIndex}>
+    {item.name}
+  </Link>
+))}
                   </div>
                 ))}
               </div>

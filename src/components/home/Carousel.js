@@ -56,12 +56,18 @@ export default function Carousel() {
                         {val.btn1}
                       </a>
                       {/* Используем Link вместо обычного <a> */}
-                      <Link
-                        to="/contact"
+                      <a
+                        href="https://yandex.com/maps/-/CHadUDZH"
                         className="btn btn-light py-md-3 px-md-5 animated slideInRight"
                       >
                         {val.btn2}
-                      </Link>
+                      </a>
+                      <a
+                        href="https://wa.me/+79602090607"
+                        className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                      >
+                        {val.btn3}
+                      </a>
                     </div>
                   </div>
                 </div>

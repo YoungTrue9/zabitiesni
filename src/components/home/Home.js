@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <>
       <Carousel />
-      <Book />
       <About />
       <Rooms />
       <Services />

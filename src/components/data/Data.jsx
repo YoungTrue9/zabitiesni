@@ -49,20 +49,22 @@ export const carouselData = [
     title: "Лучшeе место для размещения в центре города. +79602090607",
     subtitle: "Гостевой дом Ленина 3",
     btn1: "Выбор номеров",
-    btn2: "Местоположение",
+    btn2: "Как добраться",
+    btn3: 'whatsapp',
   },
   {
     img: "../assets/img/home4.jpeg",
     title: "Лучшeе место для размещения в центре города. +79602090607",
     subtitle: "Гостевой дом Ленина 3",
     btn1: "Выбор номеров",
-    btn2: "Местоположение",
+    btn2: "Как добраться",
+    btn3: 'whatsapp',
   },
 ];
 export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
-    text: "Комнат",
+    text: "Спален",
     count: "8",
   },
   {
@@ -107,8 +109,8 @@ export const services = [
 
   {
     icon: <i class="fa fa-home fa-2x text-primary"></i>,
-    name: "Дом",
-    discription: "На территории находится так же отдельный дом, 120 м² (полное описание в разделе 'номера').",
+    name: "Обьекты",
+    discription: "Все обьекты находятся под видеонаблюдением.",
   },
 ];
 export const team = [
@@ -140,13 +142,13 @@ export const footerItem = [
     header: "Компания",
     UnitItem: [
       {
-        name: "О нас",
+        name: "О нас", href: "/about"
       },
       {
-        name: "Номера",
+        name: "Номера", href: "/rooms"
       },
       {
-        name: "Контакты",
+        name: "Контакты", href: "/contact"
       },
     ],
   },
@@ -155,10 +157,10 @@ export const footerItem = [
     header: "Services",
     UnitItem: [
       {
-        name: "Еда & Кафе",
+        name: "Еда & Кафе", href: "https://yandex.com/maps/10907/valday/category/cafe/184106390/?ll=33.232896%2C57.980638&sll=33.232896%2C57.980624&z=13",
       },
       {
-        name: "Развлекательный центр",
+        name: "Развлекательный центр", href: "https://yandex.com/maps/org/cafe_mesto_valday/110024620031/?ll=33.257455%2C57.978462&z=17",
       },
     ],
   },
@@ -168,14 +170,17 @@ export const footerContact = [
   {
     icon: <i className="fa fa-map-marker-alt me-3"></i>,
     name: "Валдай, Ленина 3а",
+    href: "https://www.google.com/maps?q=Валдай,+Ленина+3а",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
     name: "+79602090607",
+    href: "tel:+79602090607",
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
     name: "kos5700@yandex.ru",
+    href: "mailto:kos5700@yandex.ru",
   },
 ];
 
@@ -266,10 +271,20 @@ export const roomItems = [
         "Этаж дома, четырёхкомнатная квартира с отдельным входом с улицы. В спальнях все кровати раздельные, максимальное размещение 14 человек. Имеется кухня и две туалетных комнаты с душевыми. Своя дворовая территория с зоной барбекю. (прямое бронирование от владельца без посредников)",
       darkbtn: "Забронировать",
       images: [
-        "../assets/img/object-carousel3.jpg",
-        "../assets/img/object-carousel4.jpg",
-        "../assets/img/object-carousel5.jpg",
-        "../assets/img/object-carousel6.jpg",
+        "../assets/img/12.jpg",
+        "../assets/img/11.jpg",
+        "../assets/img/1010.jpg",
+        "../assets/img/13.jpg",
+        "../assets/img/14.jpg",
+        "../assets/img/15.jpg",
+        "../assets/img/99.jpg",
+        "../assets/img/88.jpg",
+        "../assets/img/77.jpg",
+        "../assets/img/66.jpg",
+        "../assets/img/55.jpg",
+        "../assets/img/44.jpg",
+        "../assets/img/33.jpg",
+        "../assets/img/22.jpg",
       ],
     },
     {
@@ -287,9 +302,11 @@ export const roomItems = [
         "Семейный номер. Одна кровать двуспальная + две односпальные кровати. Имеется своя ванная комната. (прямое бронирование от владельца без посредников)",
       darkbtn: "Забронировать",
       images: [
-        "../assets/img/family1.jpeg",
-        "../assets/img/family2.jpeg",
-        "../assets/img/family3.jpeg",
+        "../assets/img/1b.jpg",
+        "../assets/img/2b.jpg",
+        "../assets/img/3b.jpg",
+        "../assets/img/4b.jpg",
+        "../assets/img/5b.jpg",
       ],
     },
   ];

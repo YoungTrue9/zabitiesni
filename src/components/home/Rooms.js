@@ -73,16 +73,16 @@ export default function Rooms() {
                   onClick={closeModal}
                 ></button>
               </div>
-              <div className="modal-body">
-                {selectedImages.map((img, index) => (
-                  <img
-                    key={index}
-                    src={img}
-                    alt={`room-${index}`}
-                    className="img-fluid mb-2"
-                  />
-                ))}
-              </div>
+              <div className="modal-body" style={{ maxHeight: "80vh", overflowY: "auto" }}>
+  {selectedImages.map((img, index) => (
+    <img
+      key={index}
+      src={img}
+      alt={`room-${index}`}
+      className="img-fluid mb-2"
+    />
+  ))}
+</div>
               <div className="modal-footer">
                 <button
                   className="btn btn-secondary"
