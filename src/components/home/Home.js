@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <>
       <Carousel />
-      <About />
       <Rooms />
       <Services />
+      <About />
     </>
   );
 }

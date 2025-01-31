@@ -28,7 +28,7 @@ export default function Teams() {
                         <a
                           className="btn btn-square btn-primary mx-1"
                           href=""
-                          key={index}
+                          key={index} 
                         >
                           {val.icon}
                         </a>

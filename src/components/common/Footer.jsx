@@ -18,7 +18,7 @@ export default function Footer() {
                   <h1 className="text-white text-uppercase mb-3">Забытые сны</h1>
                 </Link>
                 <p className="text-white mb-0">
-                Гостевой дом имеющий не сколько обьектов для размещения. Все места размещения находятся в центре города.
+                Гостевой дом имеющий несколько обьектов для размещения. Все места размещения находятся в центре города.
                 </p>
               </div>
             </div>
@@ -28,11 +28,29 @@ export default function Footer() {
               </h6>
               {footerContact.map((val, index) => (
   <p className="mb-2" key={index}>
-    <a href={val.href} className="text-light text-decoration-none">
+    <a
+      href={val.href}
+      className="text-light text-decoration-none"
+      style={{
+        textDecoration: "none",
+        color: "white",
+        cursor: "pointer",
+        transition: "color 0.3s, textDecoration 0.3s",
+      }}
+      onMouseEnter={(e) => {
+        e.target.style.textDecoration = "underline";
+        e.target.style.color = "#FFD700"; // Золотой цвет при наведении
+      }}
+      onMouseLeave={(e) => {
+        e.target.style.textDecoration = "none";
+        e.target.style.color = "white"; // Возврат к белому цвету
+      }}
+    >
       {val.icon} {val.name}
     </a>
   </p>
 ))}
+
 
               <div className="d-flex pt-2">
                 {socialIcons.slice(0, 4).map((val, index) => (

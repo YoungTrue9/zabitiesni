@@ -19,15 +19,17 @@ export default function Contact() {
             <div class="col-12">
               <div class="row gy-4">
                 {contact.map((item, index) => (
-                  <div class="col-md-4">
-                    <h6 class="section-title text-start text-primary text-uppercase">
-                      {item.title}
-                    </h6>
-                    <p>
-                      {item.icon}
+                  <div className="col-md-4" key={index}>
+                  <h6 className="section-title text-start text-primary text-uppercase">
+                    {item.title}
+                  </h6>
+                  <p>
+                    {item.icon}{" "}
+                    <a href={`mailto:${item.email}`} className="text-dark text-decoration-none">
                       {item.email}
-                    </p>
-                  </div>
+                    </a>
+                  </p>
+                </div>
                 ))}
               </div>
             </div>

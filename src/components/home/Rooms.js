@@ -52,6 +52,14 @@ export default function Rooms() {
                       >
                         Посмотреть фото
                       </button>
+                      <a
+    href="https://wa.me/+79602090607" // Предполагаем, что в `item` есть свойство `link`
+    className="btn btn-sm btn-primary rounded py-2 px-4"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Бронирование
+  </a>
                     </div>
                   </div>
                 </div>

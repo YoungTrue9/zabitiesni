@@ -46,7 +46,7 @@ export const socialIcons = [
 export const carouselData = [
   {
     img: "../assets/img/banner_bg.jpg",
-    title: "Лучшeе место для размещения в центре города. +79602090607",
+    title: "Лучшeе место для размещения в центре Валдая. +79602090607",
     subtitle: "Гостевой дом Ленина 3",
     btn1: "Выбор номеров",
     btn2: "Как добраться",
@@ -54,7 +54,7 @@ export const carouselData = [
   },
   {
     img: "../assets/img/home4.jpeg",
-    title: "Лучшeе место для размещения в центре города. +79602090607",
+    title: "Лучшeе место для размещения в центре Валдая. +79602090607",
     subtitle: "Гостевой дом Ленина 3",
     btn1: "Выбор номеров",
     btn2: "Как добраться",
@@ -152,18 +152,6 @@ export const footerItem = [
       },
     ],
   },
-  {
-    id: 2,
-    header: "Services",
-    UnitItem: [
-      {
-        name: "Еда & Кафе", href: "https://yandex.com/maps/10907/valday/category/cafe/184106390/?ll=33.232896%2C57.980638&sll=33.232896%2C57.980624&z=13",
-      },
-      {
-        name: "Развлекательный центр", href: "https://yandex.com/maps/org/cafe_mesto_valday/110024620031/?ll=33.257455%2C57.978462&z=17",
-      },
-    ],
-  },
 ];
 
 export const footerContact = [
@@ -247,13 +235,17 @@ export const roomItems = [
         "Дом с тремя спальнями. В спальнях семь раздельных кроватей и имеется большая гостиная с диванами и кухонной зоной. Максимальное размещение до 11 человек. Два санузла с душевыми. Своя дворовая территория с зоной барбекю. (прямое бронирование от владельца без посредников)",
       darkbtn: "Забронировать",
       images: [
-        "../assets/img/object-carousel1.jpg",
-        "../assets/img/object-carousel2.jpg",
-        "../assets/img/object-carousel7.jpg",
-        "../assets/img/object-carousel8.jpg",
-        "../assets/img/object-carousel9.jpg",
-        "../assets/img/object-carousel10.jpg",
-        "../assets/img/object-carousel11.jpg",
+        "../assets/img/homestart.jpg",
+        "../assets/img/home1new.jpg",
+        "../assets/img/home2new.jpg",
+        "../assets/img/home3new.jpg",
+        "../assets/img/home4new.jpg",
+        "../assets/img/home6new.jpg",
+        "../assets/img/home7new.jpg",
+        "../assets/img/home8new.jpg",
+        "../assets/img/home9new.jpg",
+        "../assets/img/home10new.jpg",
+        "../assets/img/home11new.jpg",
       ],
     },
     {
@@ -271,20 +263,28 @@ export const roomItems = [
         "Этаж дома, четырёхкомнатная квартира с отдельным входом с улицы. В спальнях все кровати раздельные, максимальное размещение 14 человек. Имеется кухня и две туалетных комнаты с душевыми. Своя дворовая территория с зоной барбекю. (прямое бронирование от владельца без посредников)",
       darkbtn: "Забронировать",
       images: [
-        "../assets/img/12.jpg",
-        "../assets/img/11.jpg",
-        "../assets/img/1010.jpg",
-        "../assets/img/13.jpg",
-        "../assets/img/14.jpg",
-        "../assets/img/15.jpg",
-        "../assets/img/99.jpg",
-        "../assets/img/88.jpg",
-        "../assets/img/77.jpg",
-        "../assets/img/66.jpg",
-        "../assets/img/55.jpg",
-        "../assets/img/44.jpg",
-        "../assets/img/33.jpg",
-        "../assets/img/22.jpg",
+        "../assets/img/13.jpg", // 4 - номер
+        "../assets/img/15.jpg", // 4 - номер
+
+        "../assets/img/99.jpg", // 2 - номер
+        "../assets/img/88.jpg", // 2 - номер
+
+        "../assets/img/numbers1.jpg", // 1 - номер
+        "../assets/img/numbers1-2.jpg", // 1 - номер
+
+        "../assets/img/numbers3.jpg", // 3 - номер
+        "../assets/img/numbers3-2.jpg", // 3 - номер
+
+        "../assets/img/123123123.jpg", // кухня
+        "../assets/img/kitchen23.jpg", // кухня
+
+        "../assets/img/toulet1.jpg", // кухня
+        "../assets/img/toulet2.jpg", // кухня
+
+        "../assets/img/koridor1.jpg", // коридор
+        "../assets/img/koridor2.jpg", // коридор
+
+        
       ],
     },
     {
