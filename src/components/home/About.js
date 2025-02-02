@@ -49,9 +49,9 @@ export default function About() {
                 ))}
               </div>
               {/* Заменяем <a> на Link */}
-              <Link className="btn btn-primary py-3 px-5 mt-2" to="/Contact">
+              <a className="btn btn-primary py-3 px-5 mt-2" href="https://wa.me/+79602090607">
                 Забронировать
-              </Link>
+              </a>
             </div>
             <div className="col-lg-6">
               <div className="row g-3">
